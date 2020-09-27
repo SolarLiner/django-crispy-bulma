@@ -8,7 +8,7 @@ setup(
     long_description_content_type="text/markdown",
     author='Python Discord',
     author_email='staff@pythondiscord.com',
-    url='https://github.com/python-discord/django-crispy-bulma',
+    url='https://github.com/solarliner/django-crispy-bulma',
     license='MIT',
     packages=find_packages(),
     classifiers=[
@@ -17,6 +17,7 @@ setup(
         "Framework :: Django",
         "Framework :: Django :: 2.2",
         "Framework :: Django :: 3.0",
+        "Framework :: Django :: 3.1",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
@@ -29,8 +30,8 @@ setup(
         "Topic :: Software Development :: Libraries :: Python Modules",
     ],
     install_requires=[
-        'Django>=2.2',
-        'django-crispy-forms~=1.9.0'
+        'Django~=3.1',
+        'django-crispy-forms~=1.9'
     ],
     extras_require={
         "dev": [
