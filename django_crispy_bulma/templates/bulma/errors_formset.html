@@ -1,0 +1,9 @@
+{% if formset.non_form_errors %}
+    <div class="nofitication is-danger">
+        {% if formset_error_title %}<b>{{ formset_error_title }}</b>{% endif %}
+        <ul>
+            {{ formset.non_form_errors|unordered_list }}
+        </ul>
+    </div>
+{% endif %}
+
